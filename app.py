@@ -79,6 +79,10 @@ def create():
             
     return render_template('create.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 @app.route('/<int:id>/edit', methods=('GET', 'POST'))
 def edit(id):
     post = get_post(id)
