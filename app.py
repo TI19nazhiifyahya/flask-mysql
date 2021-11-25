@@ -10,7 +10,7 @@ def get_db_connection():
         host="localhost",
         user="root",
         password="",
-        database="database"
+        database="databaseflask"
     )
 
     return conn
