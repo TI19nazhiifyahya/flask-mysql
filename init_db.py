@@ -3,7 +3,7 @@ import mysql.connector
 
 # connection = sqlite3.connect('database.db')
 connection = mysql.connector.connect(
-    hostname = "localhost",
+    host = "localhost",
     user = "root",
     password = "",
     database = "database"
